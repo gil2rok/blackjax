@@ -68,8 +68,8 @@ def step(
     ----------
     rng_key
         Key for JAX's pseudo-random number generator.
-    init_state
-        Initial state of the mean-field approximation.
+    state
+        Current state of the mean-field approximation.
     logdensity_fn
         Function that represents the target log-density to approximate.
     optimizer
